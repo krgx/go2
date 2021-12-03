@@ -1,0 +1,39 @@
+Create table InsurCompany
+(
+	InsurCompanyId int primary key identity,
+	InsurCompanyName nvarchar(40),
+	InsurAdress nvarchar(60),
+	InsurBIC int,
+	InsurINN int,
+	InsurRS int
+)
+
+Create table InsurType
+(
+	InsurTypeId int primary key Identity,
+	InsurTypeName nvarchar(30)
+)
+
+Create table Passport
+(
+	PassportId int primary key identity,
+	PassportSerial int,
+	PassportNumber int,
+	DateBirth date,
+	DateGive date,
+	PassportIssuedBy nvarchar(60),
+	PassportAdress nvarchar(60),
+)
+
+Create table UserType
+(
+	TypeId int primary key identity,
+	TypeName nvarchar(40)
+)
+
+Create table Servicess
+(
+	ServicesId int primary key identity,
+	ServicesName nvarchar(30),
+	ServicesDeadline nvarchar(15)
+)

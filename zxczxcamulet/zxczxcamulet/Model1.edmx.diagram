@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="389382c011f241aa996633e087ec7782" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="hachiuebani123Model.Avtobus" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.Bilet" Width="1.5" PointX="9" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.Dispetcher" Width="1.5" PointX="10.375" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.Marshrut" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.Voditel" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hachiuebani123Model.Perevozka" Width="1.5" PointX="3.375" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="hachiuebani123Model.FK_Perevozka_Avtobus" ManuallyRouted="false" />
+        <AssociationConnector Association="hachiuebani123Model.FK_Perevozka_Bilet" ManuallyRouted="false" />
+        <AssociationConnector Association="hachiuebani123Model.FK_Perevozka_Dispetcher" ManuallyRouted="false" />
+        <AssociationConnector Association="hachiuebani123Model.FK_Perevozka_Marshrut" ManuallyRouted="false" />
+        <AssociationConnector Association="hachiuebani123Model.FK_Perevozka_Voditel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
